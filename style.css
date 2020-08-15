@@ -6,13 +6,13 @@ html {
 }
 
 h1 {
-  color: green;
+  color: rgb(0, 175, 0);
   background-color: rgb(75, 75, 75);
   font-family: ui-monospace;
   padding: 10px;
 }
 
-h2 {
+h3 {
   font-style: italic;
 }
 
@@ -23,8 +23,36 @@ ul {
 }
   
 li {
+  font-family: ui-monospace;
   list-style-type: square;
   margin-left: 20px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: lightgreen;
+}
+
+a:visited {
+  color: lightskyblue;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  border-bottom: ipx solid;
+}
+
+a:active {
+  background: lightgreen;
+  color: rgb(225, 225, 225);
 }
 
 .centered {
