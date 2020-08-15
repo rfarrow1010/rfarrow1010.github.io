@@ -1,14 +1,29 @@
 html {
-    background-color: green;
-    font-size: 20px;
-  }
+  color: rgb(211, 211, 211);
+  background-color: rgb(50, 50, 50);
+  font-size: 20px;
+}
 
-  ul {
-    background: red;
-    padding: 10px;
-    border: 1px solid black;
-  }
+h1 {
+  color: rgb(225, 225, 225);
+  background-color: rgb(75, 75, 75);
+}
+
+ul {
+  color: rgb(225, 225, 225);
+  background: rgb(75, 75, 75);
+  padding: 10px;
+}
   
-  li {
-    margin-left: 20px;
-  }
+li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.face {
+  height: 400px;
+  width:  600px;
+  background-image: url(headshot_2019_small.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
