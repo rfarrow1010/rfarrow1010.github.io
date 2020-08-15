@@ -41,6 +41,7 @@ a:link {
 
 a:visited {
   color: lightskyblue;
+  border-bottom: 0px;
 }
 
 a:focus {
