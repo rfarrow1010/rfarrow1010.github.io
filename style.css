@@ -36,6 +36,7 @@ a {
 
 a:link {
   color: lightgreen;
+  border-bottom: 1px solid;
 }
 
 a:visited {
