@@ -27,10 +27,8 @@ li {
   margin-left: 20px;
 }
 
-.face {
+.centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(headshot_2019_small.jpg);
-  background-repeat: no-repeat;
 }
