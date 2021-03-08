@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Ubuntu&family=Inconsolata&display=swap');
+
 /* 12-column format */
 [class*="col-"] {
   float: left;
@@ -38,23 +41,12 @@ html {
 h1 {
   color: rgb(0, 175, 0);
   background-color: rgb(75, 75, 75);
+  font-family: 'Inconsolata', monospace;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
-}
-
-ul {
-  color: rgb(225, 225, 225);
-  background: rgb(75, 75, 75);
-  padding: 10px;
-}
-  
-li {
-  font-family: ui-monospace;
-  list-style-type: square;
-  margin-left: 20px;
 }
 
 a {
@@ -102,9 +94,7 @@ a:active {
   width: 60%;
 }
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Ubuntu&display=swap');
+
 
 /* 
   media query: add a breakpoint at 800px browser size 
@@ -127,7 +117,7 @@ a:active {
   /* the rest is style stuff for the boxes */
   list-style: none;
   margin: 0;
-  background-color: cadetblue;
+  background-color: rgb(75, 75, 75);
 }
 
 .navbar a {
@@ -143,10 +133,6 @@ a:active {
 .navbar a:hover {
   /* when a link is hovered, change its presentation */
   background-color: forestgreen;
-}
-
-h1 {
-  font-family: 'Ubuntu', sans-serif;
 }
 
 @media all and (max-width: 800px) {
