@@ -2,43 +2,65 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Ryan Farrow">
     <meta name="description" content="The index page for my Github website">
     <meta http-equiv="X-UA-Compatible" conent="ie-edge" />
-    <link rel="stylesheet" href="style.css">
-    <title>Home - rfarrow1010</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Ryan Farrow</title>
   </head>
   <body>
-      <ul class="navbar">
-        <li><a href="#" title="Homepage">Home</a></li>
-        <li><a href="projects/econ.html" title="Economist Command Line Audio project page">Economist CLI</a></li>
-        <li><a href="projects/capsule.html" title="Capsule">Capsule</a></li>
-        <li><a href="projects/transcription.html" title="Parallelizable Audio Transcription">Parallelizable Audio Transcription</a></li>
-        <li><a href="projects/iplane.html" title="iPlane 0.1">iPlane 0.1</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo_gray_rounded.png" alt="" width="45" height="45">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects/econ.html" title="Economist Command Line Audio project page">Economist CLI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects/capsule.html" title="Capsule">Capsule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects/transcription.html" title="Parallelizable Audio Transcription">Parallelizable Audio Transcription</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects/iplane.html" title="iPlane 0.1">iPlane 0.1</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header>
-      <h1>rfarrow1010 Web Portfolio</h1>
+      <h1>Welcome to ryanfarrow.com</h1>
     </header>
-    <h2>Welcome to my Github homepage!</h2>
-    <p>The directory above shows all of the personal projects I have been working on. 
-      Take a look, fork a project!
-    </p>
-    <h3>whoami?</h3>
-    <img class="centered" src="headshot_2019_tiny.jpg" alt="A picture of my face" style="width:100%;">
+
+    <h2>whoami?</h2>
+    <div class="container">
+      <img class="img-fluid" src="headshot_2019_tiny.jpg" alt="A picture of my face" style="width:100%;">
+    </div>
     <p>My name is Ryan Farrow, and I'm a senior computer science student at the University of Notre Dame. I love working 
       with all kinds of technologies, so my experience ranges from robotics to cloud development to Web and mobile 
       development. Much of this experience unfortunately cannot be open-sourced for one reason or another, so you may not
       find it on my GitHub. But you can still take a look at this page and see what I can share with you!
     </p>
-    <h3>Opportunities</h3>
-    <p>I'm in the market for employment! If you feel we would be a match, please get in touch at 
-      <a href="mailto:rfarrow@nd.edu">rfarrow@nd.edu</a>.
-    </p>
+
     <h3>Important Links</h3>
     <ul>
       <li><a href="https://rfarrow1010.github.io/Farrow_Ryan_Portfolio.pdf">My Portfolio</a></li>
       <li><a href="https://github.com/rfarrow1010">My Github</a></li>
     </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

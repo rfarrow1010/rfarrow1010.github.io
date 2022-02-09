@@ -1,0 +1,43 @@
+/* Variables */
+:root {
+  --font-family: "Inconsolata", monospace;
+  --normal-font-size: 400;
+  --bold-font-size: 700;
+  --black-font-size: 900;
+  --bg-color: #444444;
+  --primary-color: #e9ebf8;
+  --secondary-color: #93e278;
+  --link-color: #00b2ca;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Ubuntu&family=Inconsolata&display=swap');
+
+html {
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+  scroll-behavior: smooth;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+h1 {
+  color: var(--secondary-color);
+  padding: 10px;
+}
